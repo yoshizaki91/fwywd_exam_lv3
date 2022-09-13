@@ -1,0 +1,47 @@
+body {
+  font-family: "Noto Sans JP";
+  font-size: 16px;
+  color: #384459;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+  align-items: center;
+}
+
+.header__items {
+  display: flex;
+  list-style: none;
+  font-weight: 600;
+}
+
+.header__items-li {
+  padding: 0px 20px;
+  border-right: solid 1px #e4e4e4;
+}
+
+.header__items-a {
+  text-decoration: none;
+  color: #384459;
+}
+
+.header__items-li:last-child {
+  border-right: none;
+}
+
+.header__btn {
+  display: flex;
+  text-decoration: none;
+  background: #007979;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 30px 40px;
+  gap: 0px 10px;
+}
+
+.header__btn:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}
