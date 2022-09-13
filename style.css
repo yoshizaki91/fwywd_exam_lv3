@@ -1,47 +1,90 @@
+/* Foundamental */
+
 body {
   font-family: "Noto Sans JP";
   font-size: 16px;
   color: #384459;
 }
 
-.header__container {
+/* Layout */
+
+.flex {
   display: flex;
+}
+
+.justify-between {
   justify-content: space-between;
-  padding: 0px 30px;
+}
+
+.align-center {
   align-items: center;
 }
 
-.header__items {
-  display: flex;
-  list-style: none;
-  font-weight: 600;
-}
+/* Text */
 
-.header__items-li {
-  padding: 0px 20px;
-  border-right: solid 1px #e4e4e4;
-}
-
-.header__items-a {
-  text-decoration: none;
+.text-black {
   color: #384459;
 }
 
-.header__items-li:last-child {
-  border-right: none;
+.text-white {
+  color: #ffffff;
 }
 
-.header__btn {
-  display: flex;
-  text-decoration: none;
-  background: #007979;
-  color: #ffffff;
+.font-bold {
   font-weight: 600;
-  padding: 30px 40px;
+}
+
+.decoration-none {
+  text-decoration: none;
+}
+
+/* Background */
+
+.bg-primary {
+  background: #007979;
+}
+
+/* Border */
+
+.border-right {
+  border-right: solid 1px #e4e4e4;
+}
+
+/* List */
+
+.list-style-none {
+  list-style: none;
+}
+
+/* Hover */
+
+.btn-hover:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+/* Margin, Padding, Gap */
+
+.gap-x-10 {
   gap: 0px 10px;
 }
 
-.header__btn:hover {
-  opacity: 0.7;
-  transition: 0.5s;
+.px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.px-30 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.px-40 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.py-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
