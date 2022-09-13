@@ -63,6 +63,11 @@ body {
   transition: 0.5s;
 }
 
+/* Widht */
+.w-150 {
+  width: 150px;
+}
+
 /* Margin, Padding, Gap */
 
 .gap-x-10 {
@@ -101,6 +106,15 @@ body {
     display: none;
   }
 
+  .sm_px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .sm_ml-10 {
+    margin-left: 10px;
+  }
+
   .sm_px-20 {
     padding-left: 20px;
     padding-right: 20px;
@@ -113,5 +127,9 @@ body {
 
   .sm_text-11 {
     font-size: 11px;
+  }
+
+  .sm_w-100 {
+    width: 100px;
   }
 }
