@@ -88,3 +88,12 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+/* ================== */
+/* sm: width < 639px */
+/* ================== */
+@media screen and (max-width: 639px) {
+  .sm_hidden {
+    display: none;
+  }
+}
