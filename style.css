@@ -1,12 +1,21 @@
+/* ======================== */
+/*        モバイルが基準      */
+/*         sm: 640px        */
+/* ======================== */
+
 /* Foundamental */
 
 body {
   font-family: "Noto Sans JP";
-  font-size: 16px;
+  font-size: 12px;
   color: #384459;
 }
 
 /* Layout */
+
+.hidden {
+  display: none;
+}
 
 .flex {
   display: flex;
@@ -63,9 +72,9 @@ body {
   transition: 0.5s;
 }
 
-/* Widht */
-.w-150 {
-  width: 150px;
+/* Width */
+.w-100 {
+  width: 100px;
 }
 
 /* Margin, Padding, Gap */
@@ -84,52 +93,89 @@ body {
   padding-right: 30px;
 }
 
-.px-40 {
-  padding-left: 40px;
-  padding-right: 40px;
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
-.py-30 {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.ml-20 {
+  margin-left: 20px;
+}
+
+.px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.py-15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.text-11 {
+  font-size: 11px;
 }
 
 /* ================== */
-/* sm: width < 639px */
+/* xl: 1280px <= width */
 /* ================== */
-@media screen and (max-width: 639px) {
+@media screen and (min-width: 1280px) {
+  .xl_max-w-1280 {
+    max-width: 1280px;
+  }
+
+  .xl_m-auto {
+    margin: 0px auto !important;
+  }
+}
+
+/* ================== */
+/* lg: 1024px <= width */
+/* ================== */
+@media screen and (min-width: 1024px) {
   body {
-    font-size: 12px;
+    font-size: 16px;
   }
 
-  .sm_hidden {
-    display: none;
+  .lg_flex {
+    display: flex;
   }
 
-  .sm_px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
+  .lg_w-150 {
+    width: 150px;
   }
 
-  .sm_ml-20 {
-    margin-left: 20px;
+  .lg_ml-0 {
+    margin-left: 0px;
   }
 
-  .sm_px-20 {
+  .lg_px-20 {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  .sm_py-15 {
-    padding-top: 15px;
-    padding-bottom: 15px;
+  .lg_px-30 {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
-  .sm_text-11 {
-    font-size: 11px;
+  .lg_px-40 {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
-  .sm_w-100 {
-    width: 100px;
+  .lg_py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
+
+  .lg_text-12 {
+    font-size: 12px;
+  }
+}
+
+/* ================== */
+/* md: 768px <= width */
+/* ================== */
+@media screen and (min-width: 768px) {
 }
