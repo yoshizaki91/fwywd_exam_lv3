@@ -120,6 +120,13 @@ body {
 /* xl: 1280px <= width */
 /* ================== */
 @media screen and (min-width: 1280px) {
+  .xl_max-w-1280 {
+    max-width: 1280px;
+  }
+
+  .xl_m-auto {
+    margin: 0px auto !important;
+  }
 }
 
 /* ================== */
