@@ -95,6 +95,24 @@ body {
 }
 
 /* ================== */
+/* lg: width < 1023px */
+/* ================== */
+@media screen and (max-width: 1023px) {
+  .lg_hidden {
+    display: none;
+  }
+}
+
+/* ================== */
+/* md: width < 767px */
+/* ================== */
+@media screen and (max-width: 767px) {
+  .md_hidden {
+    display: none;
+  }
+}
+
+/* ================== */
 /* sm: width < 639px */
 /* ================== */
 @media screen and (max-width: 639px) {
