@@ -10,8 +10,28 @@
     display: flex;
   }
 
+  .lg_grid {
+    display: grid;
+  }
+
+  .lg_grid-row-50p {
+    grid-row: 1/2;
+  }
+
+  .lg_relative {
+    position: relative;
+  }
+
   .lg_w-150 {
     width: 150px;
+  }
+
+  .lg_w-90p {
+    width: 90%;
+  }
+
+  .lg_gap-x-50 {
+    gap: 0 50px;
   }
 
   .lg_ml-0 {
@@ -33,12 +53,25 @@
     padding-right: 40px;
   }
 
+  .lg_px-100 {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
   .lg_py-30 {
     padding-top: 30px;
     padding-bottom: 30px;
   }
 
+  .lg_pb-50 {
+    padding-bottom: 50px;
+  }
+
   .lg_text-12 {
     font-size: 12px;
+  }
+
+  .lg_top-50 {
+    top: 50px;
   }
 }
