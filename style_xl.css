@@ -23,4 +23,8 @@
   .xl_bg-hero-2 {
     background-image: url("./img/hero01_bg02.jpg");
   }
+
+  .xl_max-w-900 {
+    max-width: 900px;
+  }
 }
