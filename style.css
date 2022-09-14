@@ -1,5 +1,6 @@
 /* ======================== */
 /*        モバイルが基準      */
+/*         sm: 640px        */
 /* ======================== */
 
 /* Foundamental */
@@ -71,9 +72,9 @@ body {
   transition: 0.5s;
 }
 
-/* Widht */
-.w-150 {
-  width: 150px;
+/* Width */
+.w-100 {
+  width: 100px;
 }
 
 /* Margin, Padding, Gap */
@@ -90,16 +91,6 @@ body {
 .px-30 {
   padding-left: 30px;
   padding-right: 30px;
-}
-
-.px-40 {
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-.py-30 {
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 .px-0 {
@@ -125,33 +116,59 @@ body {
   font-size: 11px;
 }
 
-.w-100 {
-  width: 100px;
-}
-
 /* ================== */
-/* xl: width > 1280px */
+/* xl: 1280px <= width */
 /* ================== */
 @media screen and (min-width: 1280px) {
 }
 
 /* ================== */
-/* lg: width > 1024px */
+/* lg: 1024px <= width */
 /* ================== */
 @media screen and (min-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
   .lg_flex {
     display: flex;
+  }
+
+  .lg_w-150 {
+    width: 150px;
+  }
+
+  .lg_ml-0 {
+    margin-left: 0px;
+  }
+
+  .lg_px-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .lg_px-30 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .lg_px-40 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .lg_py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .lg_text-12 {
+    font-size: 12px;
   }
 }
 
 /* ================== */
-/* md: width > 768px */
+/* md: 768px <= width */
 /* ================== */
 @media screen and (min-width: 768px) {
-}
-
-/* ================== */
-/* sm: width > 640px */
-/* ================== */
-@media screen and (min-width: 640px) {
 }
