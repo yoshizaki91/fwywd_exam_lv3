@@ -58,6 +58,14 @@ body {
   left: 80px;
 }
 
+.left-50p {
+  left: 50%;
+}
+
+.-transform-x-50p {
+  transform: translateX(-50%);
+}
+
 /* Text */
 
 .text-black {
